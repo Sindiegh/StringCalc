@@ -11,7 +11,14 @@ public class StringCalculator {
     public static  final String delimiter= (",|;|\n");
     public static void main(String[] args)  {
         try {
-            System.out.println(add("6,8"));
+                      System.out.println(Add(""));
+            System.out.println(Add("1,2"));
+            System.out.println(Add("1,2,3,4"));
+            System.out.println(Add("1\n2,3" ));
+            System.out.println(Add("//;\n1;2"));
+            System.out.println(Add("//[(-_-')][%]\\n1(-_-')2%3"));
+            //does not work on this one.
+            System.out.println(Add("//4\n142"));
 
 
         }
